@@ -485,8 +485,7 @@ With the Internet spreading like wildfire and reaching every part of our daily l
 </div>
 <div class="h-content-swap-hover-container animated h-content-swap__hover d-flex border-radius-inherit fadeIn justify-content-lg-center justify-content-md-center justify-content-center style-238 style-local-42-c118 position-relative" style="display: none;" data-hover="" data-colibri-component="link" data-href="" data-colibri-id="42-c118">
 <div class="w-100 h-y-container align-self-lg-center align-self-md-center align-self-center">
-<div class="h-icon style-239 style-local-42-c119 position-relative h-element" data-colibri-id="42-c119">
-<a href="#"><span class="h-svg-icon h-icon__icon style-239-icon style-local-42-c119-icon"><!--Icon by Icons8 Line Awesome (https://icons8.com/line-awesome)--></span></a></div>
+<div class="h-icon style-239 style-local-42-c119 position-relative h-element" data-colibri-id="42-c119"><a href="#"><span class="h-svg-icon h-icon__icon style-239-icon style-local-42-c119-icon"><!--Icon by Icons8 Line Awesome (https://icons8.com/line-awesome)--></span></a></div>
 </div>
 </div>
 </div>
@@ -506,8 +505,7 @@ Hope this works
 </div>
 <div class="h-content-swap-hover-container animated h-content-swap__hover d-flex border-radius-inherit fadeIn justify-content-lg-center justify-content-md-center justify-content-center style-238 style-local-42-c123 position-relative" style="display: none;" data-hover="" data-colibri-component="link" data-href="" data-colibri-id="42-c123">
 <div class="w-100 h-y-container align-self-lg-center align-self-md-center align-self-center">
-<div class="h-icon style-239 style-local-42-c124 position-relative h-element" data-colibri-id="42-c124">
-<a href="#"><span class="h-svg-icon h-icon__icon style-239-icon style-local-42-c124-icon"><!--Icon by Icons8 Line Awesome (https://icons8.com/line-awesome)--></span></a></div>
+<div class="h-icon style-239 style-local-42-c124 position-relative h-element" data-colibri-id="42-c124"><a href="#"><span class="h-svg-icon h-icon__icon style-239-icon style-local-42-c124-icon"><!--Icon by Icons8 Line Awesome (https://icons8.com/line-awesome)--></span></a></div>
 </div>
 </div>
 </div>
@@ -525,8 +523,7 @@ Hope this works
 </div>
 <div class="h-content-swap-hover-container animated h-content-swap__hover d-flex border-radius-inherit fadeIn justify-content-lg-center justify-content-md-center justify-content-center style-238 style-local-42-c128 position-relative" style="display: none;" data-hover="" data-colibri-component="link" data-href="" data-colibri-id="42-c128">
 <div class="w-100 h-y-container align-self-lg-center align-self-md-center align-self-center">
-<div class="h-icon style-239 style-local-42-c129 position-relative h-element" data-colibri-id="42-c129">
-<a href="#"><span class="h-svg-icon h-icon__icon style-239-icon style-local-42-c129-icon"><!--Icon by Icons8 Line Awesome (https://icons8.com/line-awesome)--></span></a></div>
+<div class="h-icon style-239 style-local-42-c129 position-relative h-element" data-colibri-id="42-c129"><a href="#"><span class="h-svg-icon h-icon__icon style-239-icon style-local-42-c129-icon"><!--Icon by Icons8 Line Awesome (https://icons8.com/line-awesome)--></span></a></div>
 </div>
 </div>
 </div>
