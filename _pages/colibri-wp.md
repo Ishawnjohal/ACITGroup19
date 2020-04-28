@@ -10,7 +10,7 @@ post_date: 2020-04-27 20:45:39
 ---
 <h2>COACHING & RESOURCES</h2>		
 			<h2>Get better at the game and improve your gaming experience even more.</h2>		
-										<img width="616" height="353" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/capsule_616x353-e1588104932629.jpg" alt="" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/capsule_616x353-e1588104932629.jpg 616w, http://game-aid.ca/wp/wp-content/uploads/2020/04/capsule_616x353-e1588104932629-300x172.jpg 300w, http://game-aid.ca/wp/wp-content/uploads/2020/04/capsule_616x353-e1588104932629-600x344.jpg 600w" sizes="(max-width: 616px) 100vw, 616px" />											
+										<img width="723" height="1024" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/81WZ4JtmeL._SL1500_-1-723x1024.jpg" alt="Counter strike Global Offensive photo" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/81WZ4JtmeL._SL1500_-1-723x1024.jpg 723w, http://game-aid.ca/wp/wp-content/uploads/2020/04/81WZ4JtmeL._SL1500_-1-212x300.jpg 212w, http://game-aid.ca/wp/wp-content/uploads/2020/04/81WZ4JtmeL._SL1500_-1-768x1088.jpg 768w, http://game-aid.ca/wp/wp-content/uploads/2020/04/81WZ4JtmeL._SL1500_-1-600x850.jpg 600w, http://game-aid.ca/wp/wp-content/uploads/2020/04/81WZ4JtmeL._SL1500_-1.jpg 1059w" sizes="(max-width: 723px) 100vw, 723px" />											
 			<a href="#" role="button">
 						Select Game
 					</a>
@@ -22,7 +22,7 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Select Game
 					</a>
-										<img width="770" height="331" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/P4ZCRKVMD22Z1572636780900-1024x440.jpg" alt="" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/P4ZCRKVMD22Z1572636780900-1024x440.jpg 1024w, http://game-aid.ca/wp/wp-content/uploads/2020/04/P4ZCRKVMD22Z1572636780900-300x129.jpg 300w, http://game-aid.ca/wp/wp-content/uploads/2020/04/P4ZCRKVMD22Z1572636780900-768x330.jpg 768w, http://game-aid.ca/wp/wp-content/uploads/2020/04/P4ZCRKVMD22Z1572636780900-600x258.jpg 600w, http://game-aid.ca/wp/wp-content/uploads/2020/04/P4ZCRKVMD22Z1572636780900.jpg 1520w" sizes="(max-width: 770px) 100vw, 770px" />											
+										<img width="724" height="1024" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/36547317606_9b3b2de3df_b-1.jpg" alt="Picture of overwatch poster" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/36547317606_9b3b2de3df_b-1.jpg 724w, http://game-aid.ca/wp/wp-content/uploads/2020/04/36547317606_9b3b2de3df_b-1-212x300.jpg 212w, http://game-aid.ca/wp/wp-content/uploads/2020/04/36547317606_9b3b2de3df_b-1-600x849.jpg 600w" sizes="(max-width: 724px) 100vw, 724px" />											
 			<a href="#" role="button">
 						Select Game
 					</a>
