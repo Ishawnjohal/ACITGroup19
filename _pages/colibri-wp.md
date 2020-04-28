@@ -14,7 +14,7 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Select Game
 					</a>
-										<img width="696" height="399" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/9056324_by_Andrew_R52331_1524754110_9056016_by_hans3595_fort.jpg" alt="" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/9056324_by_Andrew_R52331_1524754110_9056016_by_hans3595_fort.jpg 696w, http://game-aid.ca/wp/wp-content/uploads/2020/04/9056324_by_Andrew_R52331_1524754110_9056016_by_hans3595_fort-300x172.jpg 300w, http://game-aid.ca/wp/wp-content/uploads/2020/04/9056324_by_Andrew_R52331_1524754110_9056016_by_hans3595_fort-600x344.jpg 600w" sizes="(max-width: 696px) 100vw, 696px" />											
+										<img width="700" height="1024" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-700x1024.jpg" alt="fortnite image" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-700x1024.jpg 700w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-205x300.jpg 205w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-768x1124.jpg 768w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-1050x1536.jpg 1050w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-1399x2048.jpg 1399w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-600x878.jpg 600w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-scaled.jpg 1749w" sizes="(max-width: 700px) 100vw, 700px" />											
 			<a href="#" role="button">
 						Select Game
 					</a>
@@ -30,7 +30,7 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Select Game
 					</a>
-										<img width="225" height="300" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/Dota-2-225x300.jpg" alt="" />											
+										<img width="225" height="300" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/Dota-2-e1588104675106.jpg" alt="" />											
 			<a href="#" role="button">
 						Select Game
 					</a>
