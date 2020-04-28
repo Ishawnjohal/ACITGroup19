@@ -18,7 +18,7 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Select Game
 					</a>
-										<img width="220" height="293" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-Valorant_fps_logo.jpg" alt="" />											
+										<img width="600" height="1000" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/0ejdf66ibsr41.jpg" alt="Valorant viper" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/0ejdf66ibsr41.jpg 600w, http://game-aid.ca/wp/wp-content/uploads/2020/04/0ejdf66ibsr41-180x300.jpg 180w" sizes="(max-width: 600px) 100vw, 600px" />											
 			<a href="#" role="button">
 						Select Game
 					</a>
@@ -34,7 +34,7 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Select Game
 					</a>
-										<img width="200" height="300" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/supersmash.jpg" alt="" />											
+										<img width="250" height="375" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/supersmash.jpg" alt="" />											
 			<a href="#" role="button">
 						Select Game
 					</a>
