@@ -43,8 +43,9 @@ post_date: 2020-04-27 20:45:39
 						Select Game
 					</a>
 			<a href="#" role="button">
+						Click Here
 					</a>
-			<a href="#" role="button">
+			<a href="#" role="button" id="button-main">
 						Click here
 					</a>
 			<a href="#" role="button">
