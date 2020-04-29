@@ -42,13 +42,14 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Select Game
 					</a>
-			<h4>Subscribe to us for game-aid announcements.</h4>		
 			<a href="#" role="button">
-						Click here
 					</a>
 			<a href="#" role="button">
 						Click here
 					</a>
 			<a href="#" role="button">
 						Click here
+					</a>
+			<a role="button">
+						Subscribe
 					</a>
