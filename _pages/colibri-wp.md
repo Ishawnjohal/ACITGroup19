@@ -26,7 +26,7 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Select Game
 					</a>
-										<img width="231" height="300" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/lol-231x300.jpg" alt="" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/lol-231x300.jpg 231w, http://game-aid.ca/wp/wp-content/uploads/2020/04/lol.jpg 304w" sizes="(max-width: 231px) 100vw, 231px" />											
+										<img width="304" height="394" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/lol.jpg" alt="" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/lol.jpg 304w, http://game-aid.ca/wp/wp-content/uploads/2020/04/lol-231x300.jpg 231w" sizes="(max-width: 304px) 100vw, 304px" />											
 			<a href="#" role="button">
 						Select Game
 					</a>
@@ -42,4 +42,13 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Select Game
 					</a>
-			<h4>Subscribe to us for game-aid announcements.</h4>
+			<h4>Subscribe to us for game-aid announcements.</h4>		
+			<a href="#" role="button">
+						Click here
+					</a>
+			<a href="#" role="button">
+						Click here
+					</a>
+			<a href="#" role="button">
+						Click here
+					</a>
