@@ -1,7 +1,7 @@
 ---
 ID: 30
 post_title: Cosmo
-author: Roy
+author: Ivy
 post_excerpt: ""
 layout: page
 permalink: http://game-aid.ca/wp/cosmo/
@@ -12,4 +12,4 @@ Cosmo wright
 aasdfasdfasd
 
 <p> This is a test part 2 </p>
-<p> Testnig testing </p>
+<p> Testing testing </p>
