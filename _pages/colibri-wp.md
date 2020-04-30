@@ -25,7 +25,7 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Click here
 					</a>
-			<a href="#" role="button">
+			<a href="http://game-aid.ca/wp/fps/" role="button">
 						Click For more
 					</a>
 			<a href="#" role="button">
