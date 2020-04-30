@@ -55,3 +55,6 @@ post_date: 2020-04-27 20:45:39
 			<a href="#" role="button">
 						Click here
 					</a>
+			<a href="#" role="button">
+						Subscribe
+					</a>
