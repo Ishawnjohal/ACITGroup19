@@ -1,7 +1,7 @@
 ---
 ID: 30
 post_title: Cosmo
-author: Ivy
+author: Roy
 post_excerpt: ""
 layout: page
 permalink: http://game-aid.ca/wp/cosmo/
