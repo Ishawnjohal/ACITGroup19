@@ -8,4 +8,4 @@ permalink: http://game-aid.ca/wp/members/
 published: true
 post_date: 2020-04-29 18:11:34
 ---
-[ultimatemember form_id="259"]
+<p>[ultimatemember form_id="259"]</p>
