@@ -183,6 +183,35 @@ class TestWebsite(unittest.TestCase):
         self.assertEqual(current_url, 'http://game-aid.ca/wp/login/',
                          'Should return http://game-aid.ca/wp/login/')
 
+        def test_profile(self):
+        """TP-004-A Tests profile page for a coach"""
+        print('Testing profile information')
+
+        # Navigates to page of interest
+        self.driver.find_element_by_id('fps-click').click()
+        self.driver.find_element_by_id('fortnite-coaches').click()
+        self.driver.find_element_by_id('profile-1').click()
+
+        # Assigns current url after a click and checks if it redirects properly
+        current_url = self.driver.current_url
+        self.assertEqual(current_url, 'http://game-aid.ca/wp/fn-coach1/',
+                         'Should return http://game-aid.ca/wp/fn-coach1/')
+
+        # Assigns variables to web-page elements, found by ID
+        coach_name = self.driver.find_element_by_id('coach-name')
+        coach_stats = self.driver.find_element_by_id('coach-stats')
+        coach_img = self.driver.find_element_by_id('coach-img')
+
+        # Checks if element exists, is a string, as well as the value of the text
+        self.assertTrue(coach_name)
+        self.assertIsInstance(coach_name.text, str, 'Element should contain a string')
+        self.assertEqual(coach_name.text, 'Jaguar "Hackermanz" Perlas',
+                         'Should equal "Jaguar "Hackermanz" Perlas"')
+
+        # Checks if element actually exists
+        self.assertTrue(coach_stats)
+        self.assertTrue(coach_img)
+
 
 if __name__ == "__main__":
     unittest.main()
