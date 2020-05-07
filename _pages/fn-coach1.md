@@ -18,7 +18,7 @@ post_date: 2020-05-05 20:57:58
 		<h2><strong>Available Times:</strong></h2>
 <hr />
 <style>
-h4 {color: beige;}</style>
+h4 {color: white;}</style>
 <h4><strong>Sunday</strong>: 1PM - 12AM</h4>
 <h4><strong>Monday</strong>: Unavailable</h4>
 <h4><strong>Tuesday</strong>: Unavailable</h4>
