@@ -183,7 +183,7 @@ class TestWebsite(unittest.TestCase):
         self.assertEqual(current_url, 'http://game-aid.ca/wp/login/',
                          'Should return http://game-aid.ca/wp/login/')
 
-        def test_profile(self):
+    def test_profile(self):
         """TP-004-A Tests profile page for a coach"""
         print('Testing profile information')
 
@@ -209,8 +209,78 @@ class TestWebsite(unittest.TestCase):
                          'Should equal "Jaguar "Hackermanz" Perlas"')
 
         # Checks if element actually exists
-        self.assertTrue(coach_stats)
-        self.assertTrue(coach_img)
+        self.assertTrue(coach_stats.is_displayed())
+        self.assertTrue(coach_img.is_displayed())
+
+    def test_register_pass(self):
+        """TP-005-A Tests a successful registration attempt
+
+            Originally planned to implement this, however since it uses a live database and
+            no access to it, we cannot mock it without making an actual account
+        """
+        pass
+
+    def test_register_user_fail(self):
+        """TP-005-B Tests an unsuccessful username registration attempt"""
+        print('Testing Unsuccessful Registration [USERNAME]')
+
+        self.driver.find_element_by_id('login').click()
+        self.driver.find_element_by_class_name('um-alt').click()
+
+        self.driver.find_element_by_id('user_login-256').send_keys('')
+        self.driver.find_element_by_id('first_name-256').send_keys('roger')
+        self.driver.find_element_by_id('last_name-256').send_keys('rabbit')
+        self.driver.find_element_by_id('user_email-256').send_keys('mangosentinel@hotmail.com')
+        self.driver.find_element_by_id('user_password-256').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('confirm_user_password-256').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('um-submit-btn').click()
+
+        username_error = self.driver.find_element_by_xpath('//*[contains(concat( " ", @class, " " ),'
+                                                           ' concat( " ", "um-field-error", " " ))]').text
+        self.assertEqual(username_error, "Username is required",
+                         'Should say "Username is required"')
+
+    def test_register_email_fail(self):
+        """TP-005-C Tests an unsuccessful email registration attempt"""
+        print('Testing Unsuccessful Registration [EMAIL]')
+
+        self.driver.find_element_by_id('login').click()
+        self.driver.find_element_by_class_name('um-alt').click()
+
+        self.driver.find_element_by_id('user_login-256').send_keys('rogerrabbit')
+        self.driver.find_element_by_id('first_name-256').send_keys('roger')
+        self.driver.find_element_by_id('last_name-256').send_keys('rabbit')
+        self.driver.find_element_by_id('user_email-256').send_keys('mangosentinel')
+        self.driver.find_element_by_id('user_password-256').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('confirm_user_password-256').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('um-submit-btn').click()
+
+        email_error = self.driver.find_element_by_xpath('//*[contains(concat( " ", @class, " " ), '
+                                                        'concat( " ", "um-field-error", " " ))]').text
+        self.assertEqual(email_error, "This is not a valid email",
+                         'Should say "This is not a valid email"')
+
+    def test_register_password_fail(self):
+        """TP-005-B Tests an unsuccessful registration attempt"""
+        print('Testing Unsuccessful Registration [PASSWORD]')
+
+        self.driver.find_element_by_id('login').click()
+        self.driver.find_element_by_class_name('um-alt').click()
+
+        self.driver.find_element_by_id('user_login-256').send_keys('rogerrabbit')
+        self.driver.find_element_by_id('first_name-256').send_keys('roger')
+        self.driver.find_element_by_id('last_name-256').send_keys('rabbit')
+        self.driver.find_element_by_id('user_email-256').send_keys('mangosentinel@hotmail.com')
+        self.driver.find_element_by_id('user_password-256').send_keys('thisismypassword')
+        self.driver.find_element_by_id('confirm_user_password-256').send_keys('thisismypassword')
+        self.driver.find_element_by_id('um-submit-btn').click()
+
+        password_error = self.driver.find_element_by_xpath('//*[contains(concat( " ", @class, " " ), '
+                                                           'concat( " ", "um-field-error", " " ))]').text
+        self.assertEqual(password_error, "Your password must contain at least one lowercase letter, "
+                                         "one capital letter and one number",
+                         'Should say "Your password must contain at least one lowercase letter,'
+                         ' one capital letter and one number"')
 
 
 if __name__ == "__main__":
