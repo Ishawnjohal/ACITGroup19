@@ -44,12 +44,15 @@ class TestWebsite(unittest.TestCase):
     def test_fps(self):
         """TP001-A Tests clicking an image in the front page"""
         print('Testing FPS Row - Landing Page')
+
+        # Sets images to variables
         img_1 = self.driver.find_element_by_id('fps-i1')
         img_2 = self.driver.find_element_by_id('fps-i2')
         img_3 = self.driver.find_element_by_id('fps-i3')
         img_4 = self.driver.find_element_by_id('fps-i4')
         click_button = self.driver.find_element_by_id('fps-click')
 
+        # Clicks images and clicks the redirection button
         img_1.click()
         img_2.click()
         img_3.click()
@@ -59,12 +62,15 @@ class TestWebsite(unittest.TestCase):
     def test_mmo(self):
         """TP001-B Tests clicking an image in the front page"""
         print('Testing MMO Row - Landing Page')
+
+        # Sets variables
         img_1 = self.driver.find_element_by_id('mmo-i1')
         img_2 = self.driver.find_element_by_id('mmo-i2')
         img_3 = self.driver.find_element_by_id('mmo-i3')
         img_4 = self.driver.find_element_by_id('mmo-i4')
         click_button = self.driver.find_element_by_id('mmo-click')
 
+        # Clicks all images and the redirection button
         img_1.click()
         img_2.click()
         img_3.click()
@@ -74,12 +80,15 @@ class TestWebsite(unittest.TestCase):
     def test_rts(self):
         """TP001-C Tests clicking an image in the front page"""
         print('Testing RTS Row - Landing Page')
+
+        # Sets variables
         img_1 = self.driver.find_element_by_id('rts-i1')
         img_2 = self.driver.find_element_by_id('rts-i2')
         img_3 = self.driver.find_element_by_id('rts-i3')
         img_4 = self.driver.find_element_by_id('rts-i4')
         click_button = self.driver.find_element_by_id('rts-click')
 
+        # Clicks all images and redirection button
         img_1.click()
         img_2.click()
         img_3.click()
@@ -89,7 +98,10 @@ class TestWebsite(unittest.TestCase):
     def test_login(self):
         """TP002-A Tests successful login"""
         print('Testing Successful Login')
+
+        #
         self.driver.find_element_by_link_text('Login').click()
+
 
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
@@ -133,20 +145,22 @@ class TestWebsite(unittest.TestCase):
         """TP002-C Tests unsuccessful login with non-existent username"""
         print('Testing Unsuccessful Login with wrong password.')
 
+        # Navigates to login page
         self.driver.find_element_by_link_text('Login').click()
 
+        # Sets login text fields to variables
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
         login_button = self.driver.find_element_by_id('um-submit-btn')
 
+        # Enters login information
         login_area.click()
         login_area.send_keys('test')
-
         password_area.click()
         password_area.send_keys('notarealpassword')
-
         login_button.click()
 
+        # Checks for proper error message
         unknown_pass_error = self.driver.find_element_by_class_name('um-field-error').text
         self.assertEqual(unknown_pass_error, "Password is incorrect. Please try again.",
                          'Should return "Password is incorrect. Please try again."')
@@ -155,12 +169,15 @@ class TestWebsite(unittest.TestCase):
         """TP-003-A Tests successful logout"""
         print('Testing Successful Logout')
 
+        # Navigates to login page
         self.driver.find_element_by_link_text('Login').click()
 
+        # Sets text fields as variables
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
         login_button = self.driver.find_element_by_id('um-submit-btn')
 
+        # Enters login information and enters
         login_area.click()
         login_area.send_keys('test')
 
@@ -222,9 +239,11 @@ class TestWebsite(unittest.TestCase):
         """TP-005-B Tests an unsuccessful username registration attempt"""
         print('Testing Unsuccessful Registration [USERNAME]')
 
+        # Navigates to registration form
         self.driver.find_element_by_link_text('Login').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
+        # Enters registration information
         self.driver.find_element_by_id('user_login-256').send_keys('')
         self.driver.find_element_by_id('first_name-256').send_keys('roger')
         self.driver.find_element_by_id('last_name-256').send_keys('rabbit')
@@ -233,6 +252,7 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_id('confirm_user_password-256').send_keys('Thisismypassword1')
         self.driver.find_element_by_id('um-submit-btn').click()
 
+        # Asserts if the right error message is produced
         username_error = self.driver.find_element_by_xpath('//*[contains(concat( " ", @class, " " ),'
                                                            ' concat( " ", "um-field-error", " " ))]').text
         self.assertEqual(username_error, "Username is required",
@@ -242,9 +262,11 @@ class TestWebsite(unittest.TestCase):
         """TP-005-C Tests an unsuccessful email registration attempt"""
         print('Testing Unsuccessful Registration [EMAIL]')
 
+        # Navigates to registration form
         self.driver.find_element_by_link_text('Login').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
+        # Enters registration information
         self.driver.find_element_by_id('user_login-256').send_keys('rogerrabbit')
         self.driver.find_element_by_id('first_name-256').send_keys('roger')
         self.driver.find_element_by_id('last_name-256').send_keys('rabbit')
@@ -253,6 +275,7 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_id('confirm_user_password-256').send_keys('Thisismypassword1')
         self.driver.find_element_by_id('um-submit-btn').click()
 
+        # Asserts if the right error message is produced
         email_error = self.driver.find_element_by_xpath('//*[contains(concat( " ", @class, " " ), '
                                                         'concat( " ", "um-field-error", " " ))]').text
         self.assertEqual(email_error, "This is not a valid email",
@@ -262,9 +285,11 @@ class TestWebsite(unittest.TestCase):
         """TP-005-B Tests an unsuccessful registration attempt"""
         print('Testing Unsuccessful Registration [PASSWORD]')
 
+        # Navigates to register page
         self.driver.find_element_by_link_text('Login').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
+        # Enters user information and clicks
         self.driver.find_element_by_id('user_login-256').send_keys('rogerrabbit')
         self.driver.find_element_by_id('first_name-256').send_keys('roger')
         self.driver.find_element_by_id('last_name-256').send_keys('rabbit')
@@ -273,6 +298,7 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_id('confirm_user_password-256').send_keys('thisismypassword')
         self.driver.find_element_by_id('um-submit-btn').click()
 
+        # Asserts if element equals the proper text
         password_error = self.driver.find_element_by_xpath('//*[contains(concat( " ", @class, " " ), '
                                                            'concat( " ", "um-field-error", " " ))]').text
         self.assertEqual(password_error, "Your password must contain at least one lowercase letter, "
