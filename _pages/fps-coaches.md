@@ -4,7 +4,7 @@ post_title: FPS Coaches
 author: Roy
 post_excerpt: ""
 layout: page
-permalink: http://game-aid.ca/wp/fortnite-coaches/
+permalink: http://game-aid.ca/wp/fps-coaches/
 published: true
 post_date: 2020-05-06 17:43:55
 ---
