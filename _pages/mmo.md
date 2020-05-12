@@ -15,4 +15,8 @@ post_date: 2020-05-12 18:09:20
 						Coach Me
 					</a>
 			<h2>Additional titles</h2>		
-										<img src="http://game-aid.ca/wp/wp-content/plugins/elementor/assets/images/placeholder.png" title="" alt="" />
+										<img width="220" height="283" src="http://game-aid.ca/wp/wp-content/uploads/2020/05/220px-Final_Fantasy_XIV_A_Realm_Reborn_box_cover.jpg" alt="" />											
+		<p>Final Fantasy XIV is a massively multiplayer online role-playing game developed and published by Square Enix.</p>		
+			<a href="#" role="button">
+						Coach Me
+					</a>
