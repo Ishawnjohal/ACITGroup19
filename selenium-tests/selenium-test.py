@@ -89,8 +89,7 @@ class TestWebsite(unittest.TestCase):
     def test_login(self):
         """TP002-A Tests successful login"""
         print('Testing Successful Login')
-        login_link = self.driver.find_element_by_id('login')
-        login_link.click()
+        self.driver.find_element_by_link_text('Login').click()
 
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
@@ -111,8 +110,8 @@ class TestWebsite(unittest.TestCase):
     def test_login_false_username(self):
         """TP002-B Tests unsuccessful login with non-existent username"""
         print('Testing Unsuccessful Login with non-existent username')
-        login_link = self.driver.find_element_by_id('login')
-        login_link.click()
+
+        self.driver.find_element_by_link_text('Login').click()
 
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
@@ -133,8 +132,8 @@ class TestWebsite(unittest.TestCase):
     def test_login_false_password(self):
         """TP002-C Tests unsuccessful login with non-existent username"""
         print('Testing Unsuccessful Login with wrong password.')
-        login_link = self.driver.find_element_by_id('login')
-        login_link.click()
+
+        self.driver.find_element_by_link_text('Login').click()
 
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
@@ -156,8 +155,7 @@ class TestWebsite(unittest.TestCase):
         """TP-003-A Tests successful logout"""
         print('Testing Successful Logout')
 
-        login_link = self.driver.find_element_by_id('login')
-        login_link.click()
+        self.driver.find_element_by_link_text('Login').click()
 
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
@@ -189,13 +187,13 @@ class TestWebsite(unittest.TestCase):
 
         # Navigates to page of interest
         self.driver.find_element_by_id('fps-click').click()
-        self.driver.find_element_by_id('fortnite-coaches').click()
+        self.driver.find_element_by_id('fps-coaches').click()
         self.driver.find_element_by_id('profile-1').click()
 
         # Assigns current url after a click and checks if it redirects properly
         current_url = self.driver.current_url
-        self.assertEqual(current_url, 'http://game-aid.ca/wp/fn-coach1/',
-                         'Should return http://game-aid.ca/wp/fn-coach1/')
+        self.assertEqual(current_url, 'http://game-aid.ca/wp/fps-coach1/',
+                         'Should return http://game-aid.ca/wp/fps-coach1/')
 
         # Assigns variables to web-page elements, found by ID
         coach_name = self.driver.find_element_by_id('coach-name')
@@ -224,7 +222,7 @@ class TestWebsite(unittest.TestCase):
         """TP-005-B Tests an unsuccessful username registration attempt"""
         print('Testing Unsuccessful Registration [USERNAME]')
 
-        self.driver.find_element_by_id('login').click()
+        self.driver.find_element_by_link_text('Login').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
         self.driver.find_element_by_id('user_login-256').send_keys('')
@@ -244,7 +242,7 @@ class TestWebsite(unittest.TestCase):
         """TP-005-C Tests an unsuccessful email registration attempt"""
         print('Testing Unsuccessful Registration [EMAIL]')
 
-        self.driver.find_element_by_id('login').click()
+        self.driver.find_element_by_link_text('Login').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
         self.driver.find_element_by_id('user_login-256').send_keys('rogerrabbit')
@@ -264,7 +262,7 @@ class TestWebsite(unittest.TestCase):
         """TP-005-B Tests an unsuccessful registration attempt"""
         print('Testing Unsuccessful Registration [PASSWORD]')
 
-        self.driver.find_element_by_id('login').click()
+        self.driver.find_element_by_link_text('Login').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
         self.driver.find_element_by_id('user_login-256').send_keys('rogerrabbit')
