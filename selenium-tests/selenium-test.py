@@ -280,6 +280,21 @@ class TestWebsite(unittest.TestCase):
                          'Should say "Your password must contain at least one lowercase letter,'
                          ' one capital letter and one number"')
 
+    def test_footer(self):
+        """TP-006-A Tests the footer"""
+        self.driver.find_element_by_id('fps-click').click()
+
+        # Sets the variables to be tested
+        footer_text = self.driver.find_element_by_id('footer-text')
+        copyright_text = self.driver.find_element_by_id('copyright')
+        social_media_buttons = self.driver.find_element_by_class_name('social-media')
+
+        # Tests the elements through assertions or clicks to check if its a button
+        self.assertEqual(footer_text.text, 'Game with confidence', 'Should be "Game with confidence"')
+        self.driver.find_element_by_id('get-coached').click()
+        self.assertEqual(copyright_text.text, '© All rights reserved', 'Should be "© All rights reserved"')
+        social_media_buttons.click()
+
 
 if __name__ == "__main__":
     unittest.main()
