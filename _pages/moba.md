@@ -1,6 +1,6 @@
 ---
 ID: 305
-post_title: Moba
+post_title: MOBA
 author: admin
 post_excerpt: ""
 layout: page
