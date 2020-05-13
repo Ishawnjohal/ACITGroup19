@@ -259,12 +259,12 @@ class TestWebsite(unittest.TestCase):
         # Asserts if the right error message is produced
         username_error = self.driver.find_element_by_xpath('//*[contains(concat( " ", @class, " " ),'
                                                            ' concat( " ", "um-field-error", " " ))]').text
-        self.assertEqual(username_error, "Username is required",
-                         'Should say "Username is required"')
+        self.assertEqual(username_error, "Username or E-mail is required",
+                         'Should say "Username or E-mail is required"')
 
-    def test_register_email_fail(self):
+    def test_register_discord_fail(self):
         """TP-005-C Tests an unsuccessful email registration attempt"""
-        print('Testing Unsuccessful Registration [EMAIL]')
+        print('Testing Unsuccessful Registration [DISCORD]')
 
         # Navigates to registration form
         self.driver.find_element_by_id('login-button').click()
@@ -280,10 +280,10 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_id('um-submit-btn').click()
 
         # Asserts if the right error message is produced
-        email_error = self.driver.find_element_by_xpath('//*[contains(concat( " ", @class, " " ), '
+        discord_error = self.driver.find_element_by_xpath('//*[contains(concat( " ", @class, " " ), '
                                                         'concat( " ", "um-field-error", " " ))]').text
-        self.assertEqual(email_error, "This is not a valid email",
-                         'Should say "This is not a valid email"')
+        self.assertEqual(discord_error, "Please enter a valid Discord username or profile URL",
+                         'Should say "Please enter a valid Discord username or profile URL"')
 
     def test_register_password_fail(self):
         """TP-005-B Tests an unsuccessful registration attempt"""
