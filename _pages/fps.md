@@ -8,7 +8,19 @@ permalink: http://game-aid.ca/wp/fps/
 published: true
 post_date: 2020-04-30 23:24:37
 ---
-<img width="700" height="1024" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-700x1024.jpg" alt="fortnite image" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-700x1024.jpg 700w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-205x300.jpg 205w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-768x1124.jpg 768w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-1050x1536.jpg 1050w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-1399x2048.jpg 1399w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-600x878.jpg 600w, http://game-aid.ca/wp/wp-content/uploads/2020/04/kgc90m24qiw01-scaled.jpg 1749w" sizes="(max-width: 700px) 100vw, 700px" />											
-			<a href="/wp/fortnite-coaches/" role="button">
-						Click here
+<h2>FPS</h2>		
+			<h3>Featured Title</h3>		
+										<img width="616" height="353" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/d9ffbcf4aa5df29167b21484b9aac12507a9deb9.jpg" alt="" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/d9ffbcf4aa5df29167b21484b9aac12507a9deb9.jpg 616w, http://game-aid.ca/wp/wp-content/uploads/2020/04/d9ffbcf4aa5df29167b21484b9aac12507a9deb9-300x172.jpg 300w, http://game-aid.ca/wp/wp-content/uploads/2020/04/d9ffbcf4aa5df29167b21484b9aac12507a9deb9-600x344.jpg 600w" sizes="(max-width: 616px) 100vw, 616px" />											
+		<p>Call of Duty: Modern Warfare is a 2019 first-person shooter video game developed by Infinity Ward and published by Activision.</p>		
+			<a href="/wp/fps-coaches" role="button">
+						Coach Me
 					</a>
+			<h3>More Titles</h3>		
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/220px-Overwatch_cover_art.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-1e6d9fb" data-elementor-lightbox-title="220px-Overwatch_cover_art">
+														</a>
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/DoomEternal_Cover.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-1e6d9fb" data-elementor-lightbox-title="DoomEternal_Cover">
+														</a>
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/counter_strike_535051t.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-1e6d9fb" data-elementor-lightbox-title="counter_strike_535051t">
+														</a>
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/71CLPKLsjiL._SY445_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-1e6d9fb" data-elementor-lightbox-title="71CLPKLsjiL._SY445_">
+														</a>
