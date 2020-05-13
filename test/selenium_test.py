@@ -248,12 +248,12 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters registration information
-        self.driver.find_element_by_id('user_login-256').send_keys('')
-        self.driver.find_element_by_id('first_name-256').send_keys('roger')
-        self.driver.find_element_by_id('last_name-256').send_keys('rabbit')
-        self.driver.find_element_by_id('user_email-256').send_keys('mangosentinel@hotmail.com')
-        self.driver.find_element_by_id('user_password-256').send_keys('Thisismypassword1')
-        self.driver.find_element_by_id('confirm_user_password-256').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('username-421').send_keys('')
+        self.driver.find_element_by_id('first_name-421').send_keys('roger')
+        self.driver.find_element_by_id('last_name-421').send_keys('rabbit')
+        self.driver.find_element_by_id('user_password-421').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('confirm_user_password-421').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('skype-421').send_keys('testing#1000')
         self.driver.find_element_by_id('um-submit-btn').click()
 
         # Asserts if the right error message is produced
@@ -271,12 +271,12 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters registration information
-        self.driver.find_element_by_id('user_login-256').send_keys('rogerrabbit')
-        self.driver.find_element_by_id('first_name-256').send_keys('roger')
-        self.driver.find_element_by_id('last_name-256').send_keys('rabbit')
-        self.driver.find_element_by_id('user_email-256').send_keys('mangosentinel')
-        self.driver.find_element_by_id('user_password-256').send_keys('Thisismypassword1')
-        self.driver.find_element_by_id('confirm_user_password-256').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('username-421').send_keys('rogerrabbit')
+        self.driver.find_element_by_id('first_name-421').send_keys('roger')
+        self.driver.find_element_by_id('last_name-421').send_keys('rabbit')
+        self.driver.find_element_by_id('user_password-421').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('confirm_user_password-421').send_keys('Thisismypassword1')
+        self.driver.find_element_by_id('skype-421').send_keys('testing#1000')
         self.driver.find_element_by_id('um-submit-btn').click()
 
         # Asserts if the right error message is produced
@@ -294,12 +294,12 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters user information and clicks
-        self.driver.find_element_by_id('user_login-256').send_keys('rogerrabbit')
-        self.driver.find_element_by_id('first_name-256').send_keys('roger')
-        self.driver.find_element_by_id('last_name-256').send_keys('rabbit')
-        self.driver.find_element_by_id('user_email-256').send_keys('mangosentinel@hotmail.com')
-        self.driver.find_element_by_id('user_password-256').send_keys('thisismypassword')
-        self.driver.find_element_by_id('confirm_user_password-256').send_keys('thisismypassword')
+        self.driver.find_element_by_id('username-421').send_keys('rogerrabbit')
+        self.driver.find_element_by_id('first_name-421').send_keys('roger')
+        self.driver.find_element_by_id('last_name-421').send_keys('rabbit')
+        self.driver.find_element_by_id('user_password-421').send_keys('thisismypassword')
+        self.driver.find_element_by_id('confirm_user_password-421').send_keys('thisismypassword')
+        self.driver.find_element_by_id('skype-421').send_keys('testing#1000')
         self.driver.find_element_by_id('um-submit-btn').click()
 
         # Asserts if element equals the proper text
