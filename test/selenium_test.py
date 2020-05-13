@@ -248,7 +248,7 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters registration information
-        self.driver.find_element_by_id('user_login-421').send_keys('')
+        self.driver.find_element_by_id('username-421').send_keys('')
         self.driver.find_element_by_id('first_name-421').send_keys('roger')
         self.driver.find_element_by_id('last_name-421').send_keys('rabbit')
         self.driver.find_element_by_id('user_email-421').send_keys('mangosentinel@hotmail.com')
@@ -272,7 +272,7 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters registration information
-        self.driver.find_element_by_id('user_login-421').send_keys('rogerrabbit')
+        self.driver.find_element_by_id('username-421').send_keys('rogerrabbit')
         self.driver.find_element_by_id('first_name-421').send_keys('roger')
         self.driver.find_element_by_id('last_name-421').send_keys('rabbit')
         self.driver.find_element_by_id('user_email-421').send_keys('mangosentinel')
@@ -296,7 +296,7 @@ class TestWebsite(unittest.TestCase):
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters user information and clicks
-        self.driver.find_element_by_id('user_login-421').send_keys('rogerrabbit')
+        self.driver.find_element_by_id('username-421').send_keys('rogerrabbit')
         self.driver.find_element_by_id('first_name-421').send_keys('roger')
         self.driver.find_element_by_id('last_name-421').send_keys('rabbit')
         self.driver.find_element_by_id('user_email-421').send_keys('mangosentinel@hotmail.com')
