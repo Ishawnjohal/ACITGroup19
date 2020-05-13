@@ -7,7 +7,6 @@ import time
 # java -jar selenium-server-standalone-3.141.59.jar
 # CLI command to start the selenium server on port 4444
 
-
 class TestWebsite(unittest.TestCase):
     """A class that holds tests to be run for game-aid
 

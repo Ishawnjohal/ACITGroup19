@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2b98401-9718-4995-a739-88aba6b843cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-test.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests for selenium_test.TestWebsite">
     <configuration name="selenium-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="selenium-tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,8 +60,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for selenium_test.TestWebsite" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="selenium-tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;selenium_test.TestWebsite&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in selenium_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="selenium-tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/selenium_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for selenium_test.TestWebsite" />
+        <item itemvalue="Python tests.Unittests in selenium_test.py" />
         <item itemvalue="Python.selenium-test" />
       </list>
     </recent_temporary>
