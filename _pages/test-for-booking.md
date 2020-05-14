@@ -8,4 +8,4 @@ permalink: http://game-aid.ca/wp/test-for-booking/
 published: true
 post_date: 2020-05-14 18:18:55
 ---
-<p>[CP_APP_HOUR_BOOKING id="1"]</p>
+[CP_APP_HOUR_BOOKING id="1"]
