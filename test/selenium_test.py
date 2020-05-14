@@ -185,19 +185,17 @@ class TestWebsite(unittest.TestCase):
         # Enters login information and enters
         login_area.click()
         login_area.send_keys('test')
-
         password_area.click()
         password_area.send_keys('Testing1')
-
         login_button.click()
 
-        logout_link = self.driver.find_element_by_id('login-button')  # Will need to fix this to say 'Logout'
-        logout_link.click()
+        # Navigates back to the 'logout' page
+        self.driver.get('http://game-aid.ca/wp/login/')
 
         logout_button = self.driver.find_element_by_xpath("//*[contains(text(), 'Logout')]")
-
         logout_button.click()
 
+        # Checks if the correct url is navigated
         current_url = self.driver.current_url
         self.assertEqual(current_url, 'http://game-aid.ca/wp/login/',
                          'Should return http://game-aid.ca/wp/login/')
