@@ -104,9 +104,8 @@ class TestWebsite(unittest.TestCase):
         """TP002-A Tests successful login"""
         print('Testing Successful Login')
 
-        
-        self.driver.find_element_by_id('login-button').click()
-        time.sleep(10)
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
         
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
@@ -128,7 +127,8 @@ class TestWebsite(unittest.TestCase):
         """TP002-B Tests unsuccessful login with non-existent username"""
         print('Testing Unsuccessful Login with non-existent username')
 
-        self.driver.find_element_by_id('login-button').click()
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
 
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
@@ -151,7 +151,7 @@ class TestWebsite(unittest.TestCase):
         print('Testing Unsuccessful Login with wrong password.')
 
         # Navigates to login page
-        self.driver.find_element_by_id('login-button').click()
+        self.driver.get('http://game-aid.ca/wp/login/')
 
         # Sets login text fields to variables
         login_area = self.driver.find_element_by_id('username-257')
@@ -175,7 +175,7 @@ class TestWebsite(unittest.TestCase):
         print('Testing Successful Logout')
 
         # Navigates to login page
-        self.driver.find_element_by_id('login-button').click()
+        self.driver.get('http://game-aid.ca/wp/login/')
 
         # Sets text fields as variables
         login_area = self.driver.find_element_by_id('username-257')
@@ -243,8 +243,10 @@ class TestWebsite(unittest.TestCase):
         """TP-005-B Tests an unsuccessful username registration attempt"""
         print('Testing Unsuccessful Registration [USERNAME]')
 
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
+
         # Navigates to registration form
-        self.driver.find_element_by_id('login-button').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters registration information
@@ -266,8 +268,10 @@ class TestWebsite(unittest.TestCase):
         """TP-005-C Tests an unsuccessful email registration attempt"""
         print('Testing Unsuccessful Registration [DISCORD]')
 
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
+
         # Navigates to registration form
-        self.driver.find_element_by_id('login-button').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters registration information
@@ -289,8 +293,10 @@ class TestWebsite(unittest.TestCase):
         """TP-005-B Tests an unsuccessful registration attempt"""
         print('Testing Unsuccessful Registration [PASSWORD]')
 
-        # Navigates to register page
-        self.driver.find_element_by_id('login-button').click()
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
+
+        # Navigates to registration form
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters user information and clicks
