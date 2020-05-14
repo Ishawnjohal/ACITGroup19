@@ -104,9 +104,8 @@ class TestWebsite(unittest.TestCase):
         """TP002-A Tests successful login"""
         print('Testing Successful Login')
 
-        
-        self.driver.find_element_by_id('login-button').click()
-        time.sleep(10)
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
         
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
@@ -128,7 +127,8 @@ class TestWebsite(unittest.TestCase):
         """TP002-B Tests unsuccessful login with non-existent username"""
         print('Testing Unsuccessful Login with non-existent username')
 
-        self.driver.find_element_by_id('login-button').click()
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
 
         login_area = self.driver.find_element_by_id('username-257')
         password_area = self.driver.find_element_by_id('user_password-257')
@@ -151,7 +151,7 @@ class TestWebsite(unittest.TestCase):
         print('Testing Unsuccessful Login with wrong password.')
 
         # Navigates to login page
-        self.driver.find_element_by_id('login-button').click()
+        self.driver.get('http://game-aid.ca/wp/login/')
 
         # Sets login text fields to variables
         login_area = self.driver.find_element_by_id('username-257')
@@ -175,7 +175,7 @@ class TestWebsite(unittest.TestCase):
         print('Testing Successful Logout')
 
         # Navigates to login page
-        self.driver.find_element_by_id('login-button').click()
+        self.driver.get('http://game-aid.ca/wp/login/')
 
         # Sets text fields as variables
         login_area = self.driver.find_element_by_id('username-257')
@@ -185,19 +185,17 @@ class TestWebsite(unittest.TestCase):
         # Enters login information and enters
         login_area.click()
         login_area.send_keys('test')
-
         password_area.click()
         password_area.send_keys('Testing1')
-
         login_button.click()
 
-        logout_link = self.driver.find_element_by_id('login-button')  # Will need to fix this to say 'Logout'
-        logout_link.click()
+        # Navigates back to the 'logout' page
+        self.driver.get('http://game-aid.ca/wp/login/')
 
         logout_button = self.driver.find_element_by_xpath("//*[contains(text(), 'Logout')]")
-
         logout_button.click()
 
+        # Checks if the correct url is navigated
         current_url = self.driver.current_url
         self.assertEqual(current_url, 'http://game-aid.ca/wp/login/',
                          'Should return http://game-aid.ca/wp/login/')
@@ -243,8 +241,10 @@ class TestWebsite(unittest.TestCase):
         """TP-005-B Tests an unsuccessful username registration attempt"""
         print('Testing Unsuccessful Registration [USERNAME]')
 
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
+
         # Navigates to registration form
-        self.driver.find_element_by_id('login-button').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters registration information
@@ -266,8 +266,10 @@ class TestWebsite(unittest.TestCase):
         """TP-005-C Tests an unsuccessful email registration attempt"""
         print('Testing Unsuccessful Registration [DISCORD]')
 
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
+
         # Navigates to registration form
-        self.driver.find_element_by_id('login-button').click()
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters registration information
@@ -289,8 +291,10 @@ class TestWebsite(unittest.TestCase):
         """TP-005-B Tests an unsuccessful registration attempt"""
         print('Testing Unsuccessful Registration [PASSWORD]')
 
-        # Navigates to register page
-        self.driver.find_element_by_id('login-button').click()
+        # Navigates to login page
+        self.driver.get('http://game-aid.ca/wp/login/')
+
+        # Navigates to registration form
         self.driver.find_element_by_class_name('um-alt').click()
 
         # Enters user information and clicks
