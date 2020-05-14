@@ -192,8 +192,7 @@ class TestWebsite(unittest.TestCase):
         # Navigates back to the 'logout' page
         self.driver.get('http://game-aid.ca/wp/login/')
 
-        logout_button = self.driver.find_element_by_xpath("//*[contains(text(), 'Logout')]")
-        logout_button.click()
+        self.driver.get('http://game-aid.ca/wp/logout/?redirect_to=http://game-aid.ca/wp/login/')
 
         # Checks if the correct url is navigated
         current_url = self.driver.current_url
