@@ -8,4 +8,4 @@ permalink: http://game-aid.ca/wp/booking-form/
 published: true
 post_date: 2020-05-14 19:16:21
 ---
-[bookly-form category_id="0" service_id="1" staff_member_id="1" hide="categories"]
+[booking nummonths=3]
