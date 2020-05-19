@@ -16,9 +16,9 @@ post_date: 2020-05-12 18:09:20
 						Coach Me
 					</a>
 			<h3>More titles</h3>		
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-WoW_Box_Art1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-e149c42" data-elementor-lightbox-title="Warcraft">
-														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/51etXV5S8rL._AC_SY445_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-e149c42" data-elementor-lightbox-title="Starwars">
-														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/220px-Final_Fantasy_XIV_A_Realm_Reborn_box_cover.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-e149c42" data-elementor-lightbox-title="Final Fantasy XIV A Realm Reborn">
-														</a>
+			<a href="#" role="button">
+					</a>
+			<a href="#" role="button">
+					</a>
+			<a href="#" role="button">
+					</a>
