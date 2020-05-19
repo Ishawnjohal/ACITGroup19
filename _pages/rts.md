@@ -22,6 +22,3 @@ post_date: 2020-04-30 23:30:40
 					</a>
 			<a href="#" role="button">
 					</a>
-			<a href="#" role="button">
-						Coach Me
-					</a>
