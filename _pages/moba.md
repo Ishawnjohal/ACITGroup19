@@ -16,9 +16,9 @@ post_date: 2020-04-30 20:33:32
 						Coach Me
 					</a>
 			<h3>More titles</h3>		
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/300px-Heroes_of_Newerth_cover.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-9bfd9f9" data-elementor-lightbox-title="300px-Heroes_of_Newerth_cover">
-														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/league-of-legends.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-9bfd9f9" data-elementor-lightbox-title="league-of-legends">
-														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/91jcCtsFqL._AC_SL1500_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-9bfd9f9" data-elementor-lightbox-title="91jcC+tsFqL._AC_SL1500_">
-														</a>
+			<a href="#" role="button">
+					</a>
+			<a href="#" role="button">
+					</a>
+			<a href="#" role="button">
+					</a>
