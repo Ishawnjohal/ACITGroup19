@@ -10,9 +10,9 @@ post_date: 2020-05-18 15:55:08
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>		
 			<h2>Get Coaching in these Games</h2>		
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/71CLPKLsjiL._SY445_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="71CLPKLsjiL._SY445_">
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/71CLPKLsjiL._SY445_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="Apex">
 														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/counter_strike_535051t.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="counter_strike_535051t">
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/counter_strike_535051t.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="Counter Strike">
 														</a>
 							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/3540499-screen-shot-2019-05-30-at-2.03.42-pm.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="3540499-screen shot 2019-05-30 at 2.03.42 pm">
 														</a>
@@ -22,21 +22,21 @@ post_date: 2020-05-18 15:55:08
 														</a>
 							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-Gw2-boxfront.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="220px-Gw2-boxfront">
 														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/51etXV5S8rL._AC_SY445_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="51etXV5S8rL._AC_SY445_">
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/51etXV5S8rL._AC_SY445_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="Starwars">
 														</a>
 							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/smashbro.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="smashbro">
 														</a>
 							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/league-of-legends-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="league-of-legends">
 														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-WoW_Box_Art1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="220px-WoW_Box_Art1">
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-WoW_Box_Art1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="Warcraft">
 														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/DoomEternal_Cover.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="DoomEternal_Cover">
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/DoomEternal_Cover.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="Doom Eternal">
 														</a>
 							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/valorant.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="valorant">
 														</a>
 							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/fortnight.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="fortnight">
 														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/220px-Final_Fantasy_XIV_A_Realm_Reborn_box_cover.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="220px-Final_Fantasy_XIV,_A_Realm_Reborn_box_cover">
+							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/220px-Final_Fantasy_XIV_A_Realm_Reborn_box_cover.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="Final Fantasy XIV A Realm Reborn">
 														</a>
 							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/300px-Heroes_of_Newerth_cover.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-26f3f8a" data-elementor-lightbox-title="300px-Heroes_of_Newerth_cover">
 														</a>
