@@ -8,6 +8,4 @@ permalink: http://game-aid.ca/wp/booking/
 published: true
 post_date: 2020-05-14 19:58:41
 ---
-This is a <b>preview</b> page, remember to publish it if needed. You can edit the full calendar and form settings into the admin settings page.
-
-[CP_APP_HOUR_BOOKING id="2"]
+[bookly-form category_id="0" service_id="1" hide="categories"]
