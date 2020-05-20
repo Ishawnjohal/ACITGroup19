@@ -9,14 +9,16 @@ published: true
 post_date: 2020-05-12 18:09:20
 ---
 <h2>MMO</h2>		
-			<h2>Choose your title</h2>		
-				<figure><img src="http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-Gw2-boxfront-212x300.png" alt="220px-Gw2-boxfront" /></figure><figure><img src="http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-WoW_Box_Art1-210x300.jpg" alt="220px-WoW_Box_Art1" /></figure><figure><img src="http://game-aid.ca/wp/wp-content/uploads/2020/04/51etXV5S8rL._AC_SY445_-212x300.jpg" alt="51etXV5S8rL._AC_SY445_" /></figure>			
-			<a href="#" role="button">
+			<h2>Featured Title</h2>		
+										<img width="220" height="311" src="http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-Gw2-boxfront.png" alt="" srcset="http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-Gw2-boxfront.png 220w, http://game-aid.ca/wp/wp-content/uploads/2020/04/220px-Gw2-boxfront-212x300.png 212w" sizes="(max-width: 220px) 100vw, 220px" />											
+		<p>Guild Wars 2 is a massively multiplayer online role-playing game developed by ArenaNet and published by NCSOFT. </p>		
+			<a href="/wp/fps-coaches" role="button">
 						Coach Me
 					</a>
-			<h2>Additional titles</h2>		
-										<img width="220" height="283" src="http://game-aid.ca/wp/wp-content/uploads/2020/05/220px-Final_Fantasy_XIV_A_Realm_Reborn_box_cover.jpg" alt="" />											
-		<p>Final Fantasy XIV is a massively multiplayer online role-playing game developed and published by Square Enix.</p>		
-			<a href="#" role="button">
-						Coach Me
+			<h3>More titles</h3>		
+			<a href="/wp/fps-coaches" role="button">
+					</a>
+			<a href="/wp/fps-coaches" role="button">
+					</a>
+			<a href="/wp/fps-coaches" role="button">
 					</a>

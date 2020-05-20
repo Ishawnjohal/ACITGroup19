@@ -16,11 +16,11 @@ post_date: 2020-04-30 23:24:37
 						Coach Me
 					</a>
 			<h3>More Titles</h3>		
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/220px-Overwatch_cover_art.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-1e6d9fb" data-elementor-lightbox-title="220px-Overwatch_cover_art">
-														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/04/DoomEternal_Cover.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-1e6d9fb" data-elementor-lightbox-title="DoomEternal_Cover">
-														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/counter_strike_535051t.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-1e6d9fb" data-elementor-lightbox-title="counter_strike_535051t">
-														</a>
-							<a href="http://game-aid.ca/wp/wp-content/uploads/2020/05/71CLPKLsjiL._SY445_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-1e6d9fb" data-elementor-lightbox-title="71CLPKLsjiL._SY445_">
-														</a>
+			<a href="/wp/fps-coaches" role="button">
+					</a>
+			<a href="/wp/fps-coaches" role="button">
+					</a>
+			<a href="/wp/fps-coaches" role="button">
+					</a>
+			<a href="/wp/fps-coaches" role="button">
+					</a>
