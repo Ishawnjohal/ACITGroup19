@@ -14,9 +14,8 @@ display.start()
 
 class TestWebsite(unittest.TestCase):
     """A class that holds tests to be run for game-aid
-
-        Roy Ortega - A01078553
-        ACIT 2911 - Set 2B
+        Group 19 - pacman
+        ACIT 2911
         May 2, 2020"""
 
     def setUp(self) -> None:
